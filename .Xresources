@@ -1,0 +1,10 @@
+! Disable scrollbar
+URxvt*scrollBar: false
+!disable ISO14755 ctrl*shift
+URxvt.iso14755: false
+URxvt.iso14755_52:false
+URxvt.internalBorder:  13
+URxvt.perl-ext-common: selection-to-clipboard
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
